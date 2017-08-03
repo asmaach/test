@@ -21,7 +21,7 @@ p.venice{
 }*/
 a:link{
 	color: #009688;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:hover{
 	color: #4DB6AC;
