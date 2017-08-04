@@ -44,12 +44,21 @@ table {
 	width: 500px;
 	border-collapse: collapse;
 }
+tr:nth-child(odd) {
+	background-color: #009688;
+	color: #ffffff;
+}
+tr:nth-child(even) {
+	background-color: #E0F2F1;
+	color: #000000;
+}
+td {
+	border: 1px solid;
+	border-color: #009688;
+	padding: 8px;
+}
 th {
 	padding: 10px;
 	border: 1px solid;
 	border-color: #009688;
-}
-tr:nth-child(odd) {
-	background-color: #009688;
-	color: #ffffff;
 }
