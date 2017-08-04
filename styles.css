@@ -36,3 +36,20 @@ a:visited{
 img {
 	width: 100%;
 }
+p {
+	font-family: roboto;
+}
+table {
+	font-family: roboto;
+	width: 500px;
+	border-collapse: collapse;
+}
+th {
+	padding: 10px;
+	border: 1px solid;
+	border-color: #009688;
+}
+tr:nth-child(odd) {
+	background-color: #009688;
+	color: #ffffff;
+}
