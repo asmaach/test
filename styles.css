@@ -32,3 +32,7 @@ a:active{
 a:visited{
 	color: #8BC34A;
 }
+/*style attribute in img tags is applied*/
+img {
+	width: 100%;
+}
